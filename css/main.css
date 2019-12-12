@@ -1,57 +1,57 @@
 html {
- font-family: "Open Sans";
- box-sizing: border-box;
- line-height: 1.5;
+  font-family: "Open Sans";
+  box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
- box-sizing: inherit;
+   box-sizing: inherit;
 }
 
 body {
- margin: 0;
+  margin: 0;
 }
 
 .banner {
-   position: relative;
-   text-align: left;
-   max-height: 500px;
-   overflow: hidden;
+  position: relative;
+  text-align: left;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .banner-content {
- position: absolute;
- left: 50%;
- max-width: 50em;
- width: 100%;
- color: #fff;
- padding: 0 1.5rem;
- bottom: -.5em;
- transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  max-width: 50em;
+  width: 100%;
+  color: #fff;
+  padding: 0 1.5rem;
+  bottom: -.5em;
+  transform: translateX(-50%);
 }
 
 h2 {
- background-color: rgba(0, 0, 0, .5);
- line-height: 1.4;
+  background-color: rgba(0, 0, 0, .5);
+  line-height: 1.4;
 }
 
 div h2 {
- font-size: 4rem;
- font-weight: bold;
- display: inline;
+  font-size: 4rem;
+  font-weight: bold;
+  display: inline;
 }
 
 p {
- text-align: left;
- font-size: 2rem;
- margin-top: 1rem;
- padding-bottom: 0;
- color: #000;
- font-style: italic;
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding-bottom: 0;
+  color: #000;
+  font-style: italic;
 }
 
 .img-flex {
- display: block;
- width: 100%;
- max-width: 100%;
+  display: block;
+  width: 100%;
+  max-width: 100%;
 }
